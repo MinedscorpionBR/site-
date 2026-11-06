@@ -24,7 +24,7 @@ botao.addEventListener("click", function() {
     conteudo.hidden = false;
 
     // Configura a música
-    musica.volume = 2.00;
+    musica.volume = 1.0;
     musica.currentTime = 45;
 
     musica.play().catch(() => {
